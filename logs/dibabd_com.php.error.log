@@ -1,0 +1,184 @@
+[03-Jan-2021 12:32:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'sdb-b.hosting.stackcp.net' (using password: NO) in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[03-Jan-2021 12:32:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'sdb-b.hosting.stackcp.net' (using password: NO) in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'root', '', Array)
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(182): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#4 [internal function]: Illuminate\Da in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[03-Jan-2021 12:33:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dibabd_ghfgj.translations' doesn't exist in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('select * from `...')
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(21 in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[03-Jan-2021 12:33:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dibabd_ghfgj.translations' doesn't exist in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('select * from `...')
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(21 in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[03-Jan-2021 12:33:39 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:420
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(777): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/f454f47303b8354a38b578e23fe38ae06f80b161.php(40): route('home')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#5 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/ in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 420
+[03-Jan-2021 12:33:39 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:420
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(777): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/f454f47303b8354a38b578e23fe38ae06f80b161.php(40): route('home')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#5 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/ in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 420
+[11-Jan-2021 16:33:41 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[11-Jan-2021 16:33:41 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[11-Jan-2021 22:03:47 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[11-Jan-2021 22:03:48 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[15-Jan-2021 23:30:50 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[15-Jan-2021 23:30:50 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[18-Jan-2021 23:17:58 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[18-Jan-2021 23:17:59 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[19-Jan-2021 18:29:12 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'dibabd_gjgjgj', 'Fi&putJgy)2U', Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'dibabd_gjgjgj', 'Fi&putJgy)2U', Array)
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=loca...', 'dibabd_gjgjgj', 'Fi&putJgy)2U', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->cre in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[19-Jan-2021 18:29:12 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'dibabd_gjgjgj', 'Fi&putJgy)2U', Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'dibabd_gjgjgj', 'Fi&putJgy)2U', Array)
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=loca...', 'dibabd_gjgjgj', 'Fi&putJgy)2U', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->cre in /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[20-Jan-2021 03:10:24 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[20-Jan-2021 03:10:25 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[24-Jan-2021 19:03:49 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[24-Jan-2021 19:03:49 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[19-Feb-2021 21:56:59 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[19-Feb-2021 21:57:00 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[19-Feb-2021 21:57:48 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28
+[19-Feb-2021 21:57:48 Asia/Dhaka] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'verification_status' of non-object in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php:28
+Stack trace:
+#0 /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php(28): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home/sites/15a/f/fd5f988327/pu...', 28, Array)
+#1 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/sites/15a/f/fd5f988327/pu...')
+#2 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/sites/15a/f/fd5f988327/pu...', Array)
+#3 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/sites/15a/f/fd5f988327/pu...', Array)
+#4 /home/sites/15a/f/fd5f988327/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home in /home/sites/15a/f/fd5f988327/public_html/storage/framework/views/7e3d525ae7b72bb6bb19ee9f61ac98d31e705924.php on line 28

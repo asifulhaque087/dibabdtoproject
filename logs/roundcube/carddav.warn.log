@@ -1,0 +1,4 @@
+[25-Jan-2021 08:26:14 +0100]: <824a32f3> BACKEND: (list_records_sync_collection) An error (status 403) occured while retrieving the sync-token of addressbook 1. Sync-collection synchronization aborted. Will use propfind synchronization instead.
+[25-Jan-2021 08:26:14 +0100]: <824a32f3> BACKEND: (list_records_sync_collection) An error (status 403) occured while retrieving the sync-token of addressbook 1. Sync-collection synchronization aborted. Will use propfind synchronization instead.
+[02-Feb-2021 16:28:08 +0100]: <02099940> BACKEND: (list_records_sync_collection) An error (status 403) occured while retrieving the sync-token of addressbook 1. Sync-collection synchronization aborted. Will use propfind synchronization instead.
+[02-Feb-2021 16:28:08 +0100]: <02099940> BACKEND: (list_records_sync_collection) An error (status 403) occured while retrieving the sync-token of addressbook 1. Sync-collection synchronization aborted. Will use propfind synchronization instead.

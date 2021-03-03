@@ -1,0 +1,806 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202102 will be lost/reset.
+# Last config file used to build this data file was /home/sites/15a/f/fd5f988327/tmp/awstats/ssl/awstats.dibabd.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2679                
+POS_VISITOR 16655               
+POS_DAY 21543               
+POS_DOMAIN 3553                
+POS_LOGIN 4057                
+POS_ROBOT 4212                
+POS_WORMS 4915                
+POS_EMAILSENDER 5046                
+POS_EMAILRECEIVER 5189                
+POS_SESSION 22098               
+POS_SIDER 22307               
+POS_FILETYPES 5324                
+POS_DOWNLOADS 5677                
+POS_OS 5725                
+POS_BROWSER 5928                
+POS_SCREENSIZE 7050                
+POS_UNKNOWNREFERER 7124                
+POS_UNKNOWNREFERERBROWSER 7863                
+POS_ORIGIN 8477                
+POS_SEREFERRALS 8621                
+POS_PAGEREFS 8834                
+POS_SEARCHWORDS 9188                
+POS_KEYWORDS 9340                
+POS_MISC 2342                
+POS_ERRORS 9399                
+POS_CLUSTER 3913                
+POS_SIDER_404 9600                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210221105345 291 70047 10936264381650
+FirstTime 0
+LastTime 20210221103759
+LastUpdate 20210221105729 291 0 291 0 0
+TotalVisits 158                 
+TotalUnique 110                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 124                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 46 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 20 867763 70 111 6034877
+1 7 25 4915873 40 60 1952967
+2 0 0 0 49 82 2967971
+3 0 0 0 23 37 1220219
+4 58 135 10693706 35 73 3286128
+5 75 181 14182848 62 102 3815804
+6 47 90 7772492 61 87 2731429
+7 2 2 169786 39 70 1529883
+8 182 297 19639603 98 131 3728005
+9 136 199 14970432 122 186 8704705
+10 49 61 1684738 52 71 2665561
+11 20 54 5971233 61 85 2136084
+12 238 330 22599701 95 144 3207318
+13 226 468 40414298 92 149 4892895
+14 287 414 23125485 105 145 2939955
+15 328 453 25303955 101 146 5609554
+16 398 724 45396691 125 170 3989570
+17 108 269 22463017 56 86 3908800
+18 91 120 10116257 53 83 3225392
+19 14 21 785248 39 64 3032186
+20 31 64 6129874 43 82 2396601
+21 26 26 1734936 55 86 2397645
+22 0 0 0 31 64 2000076
+23 24 61 6136109 40 83 3232919
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+in 1765 2912 184991427
+bd 251 493 36805072
+ca 111 181 19851243
+us 101 171 14564304
+gb 39 86 8870009
+ch 22 22 1480217
+de 21 21 610425
+ru 15 47 5873002
+ir 14 20 4896384
+il 13 31 3488894
+cn 5 5 424957
+zz 4 17 2680225
+eu 2 2 84893
+gr 1 1 84893
+cz 1 1 2659
+ro 1 1 84893
+al 1 1 85145
+ie 0 2 195403
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+Googlebot/ 361 18668519 20210221101142 0
+SemrushBot/ 87 5940982 20210219122643 0
+SeznamBot/ 82 5181890 20210220120117 0
+facebookexternalhit/ 59 4671607 20210220095955 0
+bingpreview 11 2359498 20210203103614 0
+Googlebot\-Image/ 8 189886 20210220041516 0
+bingbot/ 7 576663 20210219101327 0
+no_user_agent 7 84732 20210220124340 0
+YandexBot/ 5 425740 20210206221955 0
+curl 3 161692 20210220124101 0
+DuckDuckGo\-Favicons\-Bot/ 2 91420 20210204022344 0
+bot[\s_+:,\.\;\/\\-] 2 169625 20210206205634 0
+discover 1 85995 20210205223025 0
+Who\.is[\x20]Bot 1 85569 20210207063615 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+png 523 29354493 0 0
+ttf 1 156072 0 0
+jpg 646 32091437 0 0
+svg 36 933141 0 0
+woff2 187 9457456 0 0
+json 2 5318 0 0
+js 210 97009059 0 0
+css 232 40225101 0 0
+html 285 23356232 0 0
+Unknown 1825 50931778 0 0
+php 5 87323 0 0
+md 2 190 0 0
+xml 13 496038 0 0
+woff 3 322767 0 0
+webp 44 647640 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+Unknown 36 22
+ios_iphone 59 33
+linuxandroid 413 221
+winxp 239 156
+macosx 17 10
+linux 153 66
+win8 1 1
+win7 5 5
+win8.1 1 1
+win10 3090 1852
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 48
+chrome74.0.3729.169 2 2
+chrome67.0.3396.87 1 1
+chrome41.0.2227.1 1 1
+chrome88.0.4240.193 2 2
+netscape5.0 5 5
+chrome73.0.3683.86 2 2
+opera53.0.2907.106 1 1
+safari14.0.2 56 30
+chrome81.0.4044.138 1 1
+chrome88.0.4324.182 619 345
+mozilla 1 1
+chrome34.0.1847.116 4 4
+opera73.0.3856.344 217 154
+chrome55.0.2883.91 75 37
+chrome40.0.2214.85 1 1
+Unknown 31 17
+safari13.0.5 1 1
+opera74.0.3911.107 97 41
+chrome88.0.4324.141 37 9
+chrome88.0.4324.146 391 189
+safari11.0 1 1
+chrome73.0.3683.103 1 1
+chrome79.0 16 16
+firefox77.0 1 1
+firefox85.0 571 284
+firefox82.0 2 1
+chrome76.0.3809.132 1 1
+chrome87.0.4280.141 1 1
+chrome68.0.3029.110 235 152
+chrome84.0.4147.135 15 4
+chrome87.0.4280.88 15 8
+chrome71.0.3563.0 35 9
+chrome86.0.4240.198 36 9
+safari10.0 2 2
+chrome80.0.3987.132 21 15
+chrome79.0.3945.0 1 1
+chrome83.0.4103.97 23 23
+chrome78.0.3904.108 58 29
+chrome88.0.4324.93 211 141
+chrome88.0.4324.150 470 223
+firefox47.3 1 1
+chrome88.0.4324.104 628 548
+firefox66.0 41 9
+chrome61.0.3163.79 1 1
+firefox62.0 2 2
+chrome71.0.3578.80 23 13
+chrome80.0.3987.122 1 1
+chrome88.0.4324.152 56 26
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210216084021
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20210220081643
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210221050701
+adreview/1.0 20210220052746
+Mozilla/5.0_zgrab/0.x 20210213132826
+cortex/1.0 20210201154321
+PageThing_http://pagething.com 20210220085149
+Foregenix_Web_Scan_1.100000_(www.foregenix.com/scan) 20210207095420
+Mozilla/5.0 20210220001856
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210221103759
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210216084021
+PageThing_http://pagething.com 20210220085149
+cortex/1.0 20210201154321
+adreview/1.0 20210220052746
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20210221050701
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210221103759
+Foregenix_Web_Scan_1.100000_(www.foregenix.com/scan) 20210207095420
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 226 231
+From1 0 0
+From2 12 12
+From3 15 15
+From4 2114 3756
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google_com 1 1
+www_google_com 9 9
+www_google_com_bd 1 1
+yandexru 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://l.facebook.com 8 8
+http://www.tonyrobbins.online 2 2
+http://www.vanessablog.online 1 1
+http://webmail.dibabd.com 1 1
+http://cpanel.dibabd.com 1 1
+http://m.facebook.com 1 1
+https://web.skype.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+404 570 30269786
+206 78 10431924
+419 51 9676
+503 616 940018
+301 40 9515
+302 292 111648
+500 20 1055935
+405 19 11970
+401 3 122
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 162
+/index.php/index.php 1 -
+/backup.zip 1 -
+/wp-content/uploads/2012/11/b16.jpg 1 -
+/cms 2 -
+/product/mens-full-sleeve-shirt-standard-collar-029-glf 1 -
+/xmlrpc.php 4 -
+/admin/customers/login/eyJpdiI6InhcL0ZaSGplM1RsczVMRHBuYkRnMHNBPT0iLCJ2YWx1ZSI6ImdieTAyZ242VXRid3htcUJrSlVJa2c9PSIsIm1hYyI6Ijg1YmZhYzFhYTkwY2VlNTJiZmJkYmUzZmM3ODMxYWI5MTlhZTU4MjdkZDdjMDgxNDJmODZmOGY1YTJmOGMxZDEifQ== 1 https://www.dibabd.com/admin/customers
+/core/CHANGELOG.txt 2 -
+/product/variant_price 4 https://dibabd.com/contact
+/index.php/index.php/category/Fragnances-pEvZB 1 -
+/install 1 -
+/home/category/25 1 -
+/skin/adminhtml/default/default/boxes.css 2 -
+/index.php/index.php/category/trimmer-okhbh 3 -
+/index.php/index.php/compare 2 -
+/wp-content/uploads/2017/11/process-2.png 1 -
+/js/win_op.js 2 -
+/website 1 -
+/wp-content/themes/martfury/images/transparent.png 1 -
+/index.php/index.php/category/baby--kids-9s7dx 2 -
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/1612565587680657376 1 -
+/public/uploads/all/4R3i2Pw7qgNLsthL7wmIvTK31rF2ftdQ2Qv3ec5s.png 1 -
+/js/site.js 2 -
+/js/mage/cookies.js 2 -
+/category/nav-element-list 3 https://dibabd.com/contact
+/home/vendor_profile/1 1 -
+/storage/.env 1 -
+/wordpress 1 -
+/wp-content/uploads/2020/01/Full-Sleeve-Cotton-Check-Shirt-10-SNK-600x600.jpg 1 -
+/wp-content/uploads/2020/02/Genuine-Leather-Belt-with-Box-Black-005-SHS-1-300x300.jpg 1 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2020/01/High-Quality-Leather-Belt-Watch-MW-627-GLM-2.jpg 2 -
+/WP 1 -
+/index.php/index.php/password/reset 1 -
+/product/pu-leather-casual-fashion-travel-backpack-1825-black 1 -
+/js/mage/adminhtml/tools.js 2 -
+/index.php/index.php/login 1 -
+/index.php/index.php/category/Electronics--Telecom-U0m4o 2 -
+/portal 1 -
+/public/.env 1 -
+/news 2 -
+/.env 4 -
+/currency 3 https://dibabd.com/contact
+/web 1 -
+/admin/customers/login/eyJpdiI6IitNNTdrYnFrQWJzMzNVMzh3czVUTlE9PSIsInZhbHVlIjoiVkJIdUJGcllHaUxleHNRWFwvRFFWcVE9PSIsIm1hYyI6IjcyNDMwOWY1ZDBlM2JiZjQ5OTYxN2U0NmYxY2I5OTIyYmI4NWNhOTI4MTU5N2VkYjEwOGQyMGM2Yzk0MzE3NDYifQ== 1 https://www.dibabd.com/admin/customers
+/blog/wp-includes/wlwmanifest.xml 3 -
+/home/category/18/102-260 1 -
+/public/uploads/favicon/5LMQXTkNSOnoYaxbXcN30esLBlXZESTVI5Qtx6Y0.png 1 -
+/wp-admin 2 -
+/uploads/product_image/product_105_1_thumb.jpg 1 -
+/home/login_set/login 1 -
+/news/wp-includes/wlwmanifest.xml 3 -
+/feed 2 https://dibabd.com/feed/
+/website/wp-includes/wlwmanifest.xml 3 -
+/uploads/product_image/product_245_1_thumb.jpg 3 -
+/wp2/wp-includes/wlwmanifest.xml 3 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/template/admin/assets/img/logo2.png 2 -
+/index.php/index.php/product/KEMEI-KM-725-BEARD-TRIMMER-lOknc 1 -
+/home/quick_view/122 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/uploads/others/payment.png 1 -
+/admin/customers/login/eyJpdiI6IjlLQXhOUVBpeGx0eVhIc1ZQMWdQMVE9PSIsInZhbHVlIjoiemZ3UktaU1dtZDVnNGt5YTBjbGJiQT09IiwibWFjIjoiOWVhMDIzOTRiYTk1ZWNmNDdlODc2M2FmOTkzNjY4MDMwNTY4ZDY1YTEwNzY2NjYwOTBkYmQ5MmM3MWE4ZTRhZCJ9 1 https://www.dibabd.com/admin/customers
+/js/css.js 2 -
+/js/navi.js 2 -
+/wp-content/uploads/2020/01/Full-Sleeve-Cotton-Check-Shirt-10-SNK.jpg 1 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/index.php/index.php/category/Health-Care-uw4Pv 2 -
+/admin/website/appearance 1 https://www.dibabd.com/admin
+/index.php/index.php/category/special%20offers 1 -
+/public/ 5 https://dibabd.com/contact
+/images/wlw/wp-icon.png 2 -
+/public/assets/css/slick.min.css.map 7 -
+/robots.txt 243 -
+/new 2 -
+/uploads/product_image/product_244_1_thumb.jpg 1 -
+/index.php/index.php/product/kemei-trimmer-km-9020-idrri 1 -
+/js/locale.js 2 -
+/public/uploads/logo/rBK813Gckb8R00aPv4MhqatusC5Pmef6Y3ZVFY2s.png 1 -
+/index.php/index.php/search 2 -
+/js/eccube.js 2 -
+/home/compare 1 -
+/index.php/index.php/category/mans-fashion-llqag 2 -
+/press 1 -
+/index.php/index.php/category/mobile-lr7cv 1 -
+/uploads/product_image/product_230_1_thumb.jpg 4 -
+/home/product_view/162/Macbook-Pro-2017 1 -
+/index.php/index.php/product/KEMEI-KM-3909-ELECTRIC-HAIR-CLIPPERS-TRIMMER-FOR-MEN-uqoz4 2 -
+/home/quick_view/179 3 -
+/index.php/index.php/category/Hair-Dryer-TZuVx 3 -
+/js/varien/js.js 2 -
+/js/mage/translate_inline.js 2 -
+/category/groceries%20&%20pets 1 -
+/index.php/index.php/affiliate 2 -
+/wp-includes/wlwmanifest.xml 5 -
+/home/category/18/0-254 1 -
+/wp-content/uploads/2017/12/40a-300x300.jpg 1 -
+/index.php/index.php/product/kemei-km-5813-professional-hair-dryer-3000w-wind-power-wd7wb 2 -
+/wp-content/uploads/2020/01/tajilonline.png 1 -
+/public/assets/js/uppy.min.js.map 6 -
+/blogs 1 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/INSTALL.txt 2 -
+/CHANGELOG.txt 2 -
+/v2 1 -
+/RELEASE_NOTES.txt 2 -
+/2018/wp-includes/wlwmanifest.xml 2 -
+/wp-login.php 8 -
+/misc/druplicon.png 2 -
+/a/j/volusion.js 2 -
+/contact 13 https://dibabd.com/contact
+/magento_version 2 -
+/home/category/23/105-263 1 -
+/home/category/5/0-18 2 -
+/blog 1 -
+/home/category/5/0-24 2 -
+/js/eccube.legacy.js 2 -
+/public/uploads/products/thumbnail/l5M3BrfaglCdsrsCMonU0zmndfQqwuEfIRFmUcvG.jpeg 1 -
+/public/uploads/logo/pfdIuiMeXGkDAIpPEUrvUCbQrOHu484nbGfz77zB.png 4 -
+/vendor/.env 1 -
+/web/wp-includes/wlwmanifest.xml 3 -
+/sitemap.txt 6 -
+/index.php/index.php/product/km-600-kemei-11-in-1-professional-trimmer-6jj48 3 -
+/index.php/index.php/category/sports--toys-i2ldf 1 -
+/product-category/garden-kitchen 1 -
+/main 1 -
+/admin 1 https://www.dibabd.com/admin/customers
+/demo 1 -
+/public/uploads/all/om4HGYXmDiRkNTSwTcrTLrzKDwAhpYkuw0setfPu.png 7 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/administrator/manifests/files/joomla.xml 2 -
+/public/uploads/categories/icon/dwmwUYey08HY4H3zVurArMIHyo4ndJ5unhgUpsZT.jpeg 3 -
+/site 1 -
+/wp 1 -
+/index.php/index.php/category/home--living-rjzta 1 -
+/js/mage/adminhtml/product.js 2 -
+/admin/countries 2 https://www.dibabd.com/admin/general-setting
+/js/prototype/validation.js 2 -
+/index.php/index.php/checkout 3 -
+/home/quick_view/74 1 -
+/admin/all_orders 1 https://www.dibabd.com/admin
+/js/js.js 2 -
+/public/uploads/brands/IEDYLwNScvw8n6EKX9sxsGnIbpN7t9l6B86c9MRF.png 1 -
+/ajax-search 3 https://dibabd.com/contact
+/index.php/index.php/category/Skin-Care-yoq2l 2 -
+/js/mage/adminhtml/sales.js 2 -
+/misc/drupal.js 2 -
+/user_data/css/common.css 2 -
+/sito/wp-includes/wlwmanifest.xml 3 -
+/wp1 1 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/index.php/index.php/shops 1 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/static/admin/css/base.css 2 -
+/js/lib/flex.js 2 -
+/admin/customers/login/eyJpdiI6Imc0VXErRXNORHFOdkpITVNNSldQRWc9PSIsInZhbHVlIjoidTZ6WXdva2pVT1g1d29obm5SUHFRdz09IiwibWFjIjoiN2YyNWJkZDEwNTc4ZWM5MjJkMWZiOWRmMTBiY2JmOTRkMWQzZjkzMjJhZDA2NjhjNzhjNTY4Y2I0YmZhYTU3OSJ9 1 https://www.dibabd.com/admin/customers
+/language 4 https://dibabd.com/contact
+/1612688041766128933 1 -
+/v1 1 -
+/home/category/17/95-211 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 124
+103.156.56.46 1646 2644 160801045 20210221094908
+182.48.82.212 45 71 4676266 20210219185618
+182.48.82.214 43 59 3416106 20210219185619
+123.108.246.174 39 95 7360988 20210219132946
+103.60.172.154 39 106 9740346 20210219152730
+182.48.82.213 38 70 4889359 20210219185621
+103.133.206.174 34 63 4264052 20210220154840
+104.245.144.36 29 44 4027829 20210204162243
+162.253.131.116 29 44 3998810 20210202065307
+203.189.229.10 27 32 661322 20210205093604
+103.138.250.94 26 56 5575694 20210219202033
+162.253.129.55 25 40 3732650 20210204091438
+91.198.230.106 22 22 1480217 20210204211553
+45.125.245.120 19 32 3259625 20210203125043
+104.245.145.23 18 31 3189206 20210202141350
+194.127.179.211 16 16 610425 20210208000951
+109.169.85.26 14 24 2737170 20210205235327
+103.118.76.101 14 56 4716016 20210203161121
+2.58.194.135 13 31 3488894 20210219213059
+103.97.162.222 13 41 3402993 20210219171656
+78.129.212.66 12 22 2566124 20210207095420
+86.29.136.150 11 38 3396929 20210221090710
+42.0.4.241 9 36 3398945 20210204051259
+95.79.163.61 9 36 3398939 20210204235447
+184.75.210.124 8 8 460313 20210202141443
+188.34.158.15 1 1 84887 20210205050759
+35.164.211.65 1 1 84893 20210221091316
+173.252.87.16 2 9 189235 20210201154703
+66.220.149.117 3 6 1627763 20210202160718
+173.252.87.20 1 1 397 20210201154702
+168.119.187.84 1 1 84732 20210203113016
+35.162.25.53 1 1 84893 20210221090830
+198.23.201.163 1 1 84893 20210216084021
+206.83.40.50 4 17 2680225 20210203204442
+34.212.26.14 1 1 84893 20210213142415
+173.252.87.2 3 6 534595 20210201154703
+209.54.43.202 2 2 169786 20210220001432
+103.115.27.204 1 1 85145 20210205183248
+66.220.149.18 4 4 98798 20210202160718
+173.252.127.25 2 9 1682839 20210220052709
+188.34.157.144 2 2 169786 20210220075931
+52.10.123.118 1 1 84893 20210213141729
+18.237.20.16 1 1 84893 20210221091540
+175.44.42.46 1 1 85145 20210219085326
+213.168.249.115 2 2 84893 20210220085149
+182.48.82.215 7 9 298992 20210219171008
+216.151.27.66 2 2 24577 20210213132826
+173.252.127.22 0 3 96250 
+168.119.161.81 2 2 170290 20210206051932
+138.246.253.24 2 2 0 20210219203551
+173.252.127.38 0 1 4065 
+52.114.14.71 1 1 3956 20210219174712
+185.191.32.205 1 1 85145 20210219114222
+173.252.127.28 0 1 33965 
+54.202.69.43 1 1 84893 20210221091831
+34.96.130.78 1 1 85825 20210219155038
+173.252.127.18 3 7 240764 20210220052727
+166.70.28.36 1 1 84732 20210203063117
+34.214.229.129 2 2 169786 20210221091800
+173.252.127.119 0 1 68159 
+188.34.179.201 0 2 1417677 
+31.171.152.139 1 1 85145 20210219062705
+95.165.234.50 1 1 2659 20210216003549
+173.252.127.13 3 7 310204 20210220052727
+173.252.87.22 3 6 1627763 20210201154703
+173.252.127.26 0 1 39893 
+31.13.103.14 0 1 68159 
+45.63.87.204 1 1 85145 20210206015321
+103.15.42.70 4 15 2362748 20210219171217
+173.252.87.5 1 1 40 20210201154702
+173.252.127.3 1 1 393 20210220052727
+54.213.102.194 1 1 84893 20210221091757
+185.253.218.243 1 1 84893 20210207045354
+103.217.110.195 8 15 2820002 20210215124342
+173.252.127.9 1 3 542695 20210220052705
+35.160.179.108 1 1 84893 20210221092117
+157.90.1.3 1 1 0 20210205235925
+173.252.127.29 0 1 35020 
+52.40.205.181 1 1 84893 20210213140453
+52.37.191.210 2 2 169786 20210213141734
+169.47.43.210 1 1 84732 20210203135419
+173.252.87.17 5 5 197413 20210201154703
+13.53.64.97 4 4 49184 20210217175940
+173.252.127.19 2 2 615 20210220052727
+69.171.251.6 0 1 4065 
+173.252.127.10 2 2 1816 20210220052727
+54.201.210.126 1 1 84893 20210221092037
+34.86.35.220 1 1 84893 20210221050701
+34.221.235.214 1 1 84893 20210221091803
+54.203.10.77 1 1 84893 20210221092113
+37.120.152.101 1 1 84893 20210220072258
+173.252.127.30 1 4 116976 20210220052705
+104.215.144.247 2 2 170290 20210206094720
+66.220.149.5 2 2 437 20210202160717
+202.102.144.121 2 2 170038 20210220001856
+188.34.179.182 5 7 1569264 20210203183751
+92.118.160.57 1 1 84893 20210221103759 20210221103759 /
+31.13.103.4 0 1 127244 
+34.221.122.254 2 2 169786 20210221091900
+188.34.153.129 1 1 85093 20210204152226
+92.62.226.182 1 1 2659 20210209143010
+162.253.129.35 0 5 2077126 
+103.146.10.161 4 4 66855 20210219134249
+64.71.131.244 1 1 84893 20210220081643
+175.44.42.213 2 2 169774 20210204203901
+18.236.178.6 1 1 84893 20210213140929
+174.94.49.125 2 4 288183 20210202141408
+51.79.111.220 2 2 169786 20210206132708
+66.220.149.3 4 7 186104 20210202160718
+54.190.79.119 1 1 84893 20210219211710
+3.125.37.107 1 1 0 20210202114956
+66.220.149.17 2 9 636968 20210202160718
+104.254.95.148 0 5 2077126 
+173.252.127.27 4 4 106216 20210220052727
+135.148.33.84 5 18 2741312 20210204012033
+5.188.62.140 1 1 85145 20210219152240
+35.166.62.238 2 2 169786 20210221092037
+173.252.127.17 0 1 127244 
+185.77.207.168 0 5 2077126 
+188.34.165.75 5 7 1569677 20210206051914
+54.189.230.128 1 2 91833 20210205202316
+91.185.71.198 2 2 139095 20210206125219
+34.216.75.211 1 1 84893 20210213140149
+138.246.253.5 3 3 0 20210219172755
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20210201 347 437 20015196 8
+20210202 371 590 33157552 13
+20210203 265 397 24072493 11
+20210204 233 400 35000257 12
+20210205 163 209 8201928 11
+20210206 101 239 17402588 9
+20210207 45 114 10268580 7
+20210208 16 18 2028102 1
+20210209 13 28 3076417 2
+20210212 1 1 12290 1
+20210213 66 177 19147701 9
+20210214 0 5 2077126 0
+20210215 8 20 4897128 1
+20210216 38 98 10971375 3
+20210217 4 4 49184 1
+20210218 3 19 4516044 1
+20210219 441 886 66139262 33
+20210220 217 308 18907620 19
+20210221 35 64 5133202 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 12
+1h+ 13
+2mn-5mn 4
+0s-30s 95
+5mn-15mn 6
+30mn-1h 8
+30s-2mn 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 135
+/ 285 23356232 89 62
+/home/section/featured 199 4048107 3 2
+/home/section/best_selling 198 4485078 2 5
+/home/section/best_sellers 198 679966 2 5
+/home/section/home_categories 198 3764292 2 7
+/aiz-uploader/get_file_by_ids 163 32156 0 1
+/category/nav-element-list 110 78383 8 20
+/login 75 296844 9 4
+/admin 71 5437154 3 5
+/public/assets/fonts/la-solid-900.woff2 67 4934352 5 2
+/public/assets/fonts/la-brands-400.woff2 58 3899512 0 3
+/public/assets/fonts/la-regular-400.woff2 55 580500 2 1
+/users/login 54 3058532 2 4
+/public/uploads/all/kOHLWR8NteJtIKzDIznqeMVWno3YAeB92ij6kjvq.webp 43 647640 0 4
+/email/verify 33 2146939 1 5
+/product/variant_price 20 1045 1 2
+/aiz-uploader/get_uploaded_files 18 158104 0 0
+/home 17 919195 10 1
+/users/registration 16 944086 9 0
+/admin/activation 16 1084630 0 1
+/admin/addons/activation 15 15 0 0
+/verification 14 863058 0 1
+/cart 12 841211 0 3
+/admin/general-setting 11 792220 0 0
+/admin/addons 11 622387 0 1
+/admin/categories/edit/36 4 227916 0 0
+/products/sku_combination_edit 6 0 0 0
+//wp/wp-includes/wlwmanifest.xml 1 38155 0 0
+/cart/show-cart-modal 1 6876 0 0
+/search 6 544496 0 0
+/wp-login.php 1 12291 1 0
+/public/assets/fonts/la-brands-400.ttf 1 156072 0 0
+/cart/nav-cart-items 8 31034 0 0
+/products/sku_combination 9 0 0 0
+/blog/wp-login.php 1 12298 0 0
+/category/Electronics--Telecom-U0m4o 6 381596 0 0
+/product/kemei-trimmer-km-9020-idrri 1 116686 0 0
+/supportpolicy 6 321330 0 0
+/admin/inhouse-orders/eyJpdiI6ImFDOUJuZGU1ck1TVDh0N0pIOU1FVXc9PSIsInZhbHVlIjoiNzNDZ2dLeFRkQXlFOTd1TVY4QUpuZz09IiwibWFjIjoiN2Y4YjNmYTUwOWFjZDIwOTc3OTczY2M3OWQzOTA2YzM1YzA4NjhlMzEwZjM0MjQ0MWQ4NTExYTU1NzQ5ZjVkNiJ9/show 2 96928 0 1
+//wp-includes/wlwmanifest.xml 1 38152 0 0
+/admin/profile 1 51308 0 0
+/products/featured 1 1 0 0
+/shops/create 4 231257 0 0
+/admin/inhouse-orders/eyJpdiI6IlBhNzZaelZSa2VnOGVXeXRyK3VOY2c9PSIsInZhbHVlIjoiOFR3VlwvMVB2YzVHdnhDOE9jU2FEVVE9PSIsIm1hYyI6ImJkZjk1ZTY4ZGU3MjdlMjk3ZmY4MWU4MzI3MTVkY2NhMThhYTY3NDgzZGU1OTljODcyMzdmNTE0ZTVmMmMzMDIifQ==/show 1 47102 0 0
+/checkout/delivery_info 6 431624 0 0
+/category/baby--kids-9s7dx 6 381116 0 0
+/admin/products/all 1 69778 0 0
+/admin/uploaded-files 6 706835 0 0
+/category/womens-fashion-tafmm 7 445415 0 0
+/admin/shipping_configuration 4 180078 0 0
+//wordpress/wp-includes/wlwmanifest.xml 1 38162 0 0
+//website/wp-includes/wlwmanifest.xml 1 38160 0 0
+/checkout/order-confirmed 3 213133 0 0
+/aiz-uploader/upload 8 16 0 0
+/admin/google-analytics 6 317414 0 0
+/public/assets/fonts/la-brands-400.woff 2 197346 0 0
+/admin/products/create 7 611832 0 0
+/admin/all_orders 3 157889 0 0
+/admin/smtp-settings 6 332697 0 1
+/product/collagen-plus-day-night-cream--frozen-collagen-2in1-vitamin-capsul-combo-offer-g96ss 10 1007581 3 1
+//wp2/wp-includes/wlwmanifest.xml 1 38156 0 0
+/admin/countries 2 103998 0 1
+/checkout 10 701986 0 1
+/admin/products/admin 1 68830 0 0
+/category/combo-offers-hukww 4 269767 0 0
+/category/beauty--personal-care-oghke 8 674128 0 1
+/admin/categories/create 2 110306 0 0
+/public/uploads/all/YqLyypTTh9qveRLnCtsbT1fA4TxopjwLq65AZE3e.webp 1 0 0 0
+/admin/manual_payment_methods 2 100435 0 0
+/admin/products/admin/6/edit 6 645386 0 0
+/admin/categories/edit/35 3 170942 0 0
+/category/mans-fashion-llqag 7 445340 0 0
+/admin/inhouse-orders/eyJpdiI6IjA5XC9SVm1yVzNJelZKdlh0d3ZOZ2RBPT0iLCJ2YWx1ZSI6IlArREFJSndvclhabmhDM0EzR285Vmc9PSIsIm1hYyI6IjUxZmQ1MmFjYmY2OTVkNjM2OWE3MDU1MWVkMTU3NTU4ODE0NDA2ZDU0N2ZiMTg3YWVmOTYwNjJlMTQ5ZWQwZWYifQ==/show 1 46779 0 0
+/admin/sellers 3 198527 0 0
+/checkout/payment_select 4 301150 0 0
+/admin/otp-credentials-configuration 3 181875 0 0
+//blog/wp-includes/wlwmanifest.xml 1 38157 0 0
+/README.md 2 190 0 0
+/admin/currency 1 66973 0 0
+/composer.json 2 5318 2 2
+/cpanel 1 33846 0 0
+//sito/wp-includes/wlwmanifest.xml 1 38157 0 1
+/admin/social-login 5 267191 0 0
+/admin/inhouse-orders 1 52514 0 0
+/affiliate 5 307408 0 1
+//news/wp-includes/wlwmanifest.xml 1 38157 0 0
+/admin/all_orders/eyJpdiI6IlI5RXljVDZaXC9hd2FZekFlRjduclwvdz09IiwidmFsdWUiOiJaTkJ2WkdBZFV0RzV0MXVnXC91TkhnUT09IiwibWFjIjoiMzk4MWE2MTQzYTdkYzAyN2YzMmMxNjg0ZTA5MzZiNDY3M2QwNjY5ZmE5ZjQ3YmMzY2M0NDFmOGRlYmRjZmJkZSJ9/show 1 55578 0 0
+/admin/all_orders/eyJpdiI6ImpjTHJqaUNaY21MUnQ0ZkREZ1BKREE9PSIsInZhbHVlIjoidU84WHI2NStUQUU4Z3c5NG9xeE54Zz09IiwibWFjIjoiNjAzMDM4ZTI1YWExMGNhZmExODlhMjQ5MjNhY2ExMTkxZmZhMTQ3N2ViMDljNTZiNzgyYTk3MzgyNGM4ZTgzMCJ9/show 1 56590 0 0
+/admin/website/footer 8 495747 1 0
+/shop/desh-shop- 1 56685 0 0
+/cart/addtocart 8 12153 0 0
+/aiz-uploader 10 35360 0 0
+/admin/sellers/eyJpdiI6InQ5U0RrOVNSWXJyZmE5VlZuUzBGOUE9PSIsInZhbHVlIjoicGFmTk9IaW8zd2FHbGo2VXhzMkJHZz09IiwibWFjIjoiNjJkNTQ1Y2JmZWU0MGFmNGEwYWM1ZDk4YmYzNTlmOTExMTEzNzA2MmMyODg3ZWZhOGQ4ZWRhN2QwN2M1MTc2YiJ9/edit 1 49968 0 0
+/admin/sellers/profile_modal 1 1808 0 0
+/category/mobile-lr7cv 6 380900 0 0
+/public/assets/css/font/summernote.woff2 7 43092 0 0
+/admin/otp-configuration/update/activation 3 3 0 0
+/product/kemei-km-5813-professional-hair-dryer-3000w-wind-power-wd7wb 2 197454 0 0
+/wordpress/wp-login.php 1 12302 0 0
+/compare 6 324012 0 0
+//web/wp-includes/wlwmanifest.xml 1 38156 0 0
+/category/fashion--lifestyle-d7enh 6 383570 0 0
+/admin/payment-method 2 142707 0 1
+/returnpolicy 8 570689 0 0
+/admin/attributes 1 42184 0 0
+//site/wp-includes/wlwmanifest.xml 1 38157 0 0
+//xmlrpc.php 1 38139 0 0
+//wp1/wp-includes/wlwmanifest.xml 1 38156 0 0
+/admin/business-settings/update/activation 10 10 0 1
+/orders/update_delivery_status 3 3 0 0
+/admin/inhouse-orders/eyJpdiI6IjY5bDIrVDUyciszM2t5UUhcL245Q3Z3PT0iLCJ2YWx1ZSI6IiswRWpuNTkrNitrUDlPNnBMUlV2Rmc9PSIsIm1hYyI6IjExOTgxNGMyYzUxM2RmZmUyODljODY4MDRkNzAxYjc1NTQ5NjhmOTUwYmFlY2FlNWRiMjMxN2Q1MDg1NjVmZTgifQ==/show 1 48496 0 0
+/refresh-csrf 11 440 2 3
+/category/sports--toys-i2ldf 6 381212 0 0
+/admin/website/appearance 3 158369 0 0
+/category/special%20offers 8 558055 0 0
+/admin/attributes/edit/1 2 82834 0 0
+/terms 7 893088 0 0
+/admin/categories 8 608871 0 0
+/categories 5 317535 0 1
+/admin/facebook-chat 9 461309 0 0
+/category/home--living-rjzta 6 381212 0 0
+/public/assets/fonts/la-solid-900.woff 1 125421 0 0
+//test/wp-includes/wlwmanifest.xml 1 38157 0 0
+/admin/pick_up_points 1 50058 0 0
+/privacypolicy 6 439134 0 1
+/track_your_order 5 272263 1 0
+/orders/update_payment_status 1 1 0 0
+/admin/website/custom-pages/edit/home 1 65902 0 0
+/admin/file_system 2 105716 0 0
+/wp/wp-login.php 1 12293 0 1
+//cms/wp-includes/wlwmanifest.xml 1 38156 0 0
+/admin/website/pages 1 52946 0 0
+/product/KEMEI-KM-3909-ELECTRIC-HAIR-CLIPPERS-TRIMMER-FOR-MEN-uqoz4 6 625250 0 0
+/admin/customers 9 607745 0 0
+/admin/otp-configuration 2 103200 0 0
+END_SIDER

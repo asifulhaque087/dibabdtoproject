@@ -1,0 +1,15 @@
+Dec 18 06:53:05.957694 check[7498]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Dec 18 06:53:07.402401 check[7498]: [ 3] mail 1 is not known spam.
+Dec 23 10:24:14.695766 check[7202]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Dec 23 10:24:16.571600 check[7202]: [ 3] mail 1 is not known spam.
+Jan 09 10:28:34.086871 check[22001]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Jan 09 10:28:35.909908 check[22001]: [ 3] mail 1 is not known spam.
+Jan 18 09:12:40.842136 check[32442]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Jan 18 09:12:42.750125 check[32442]: [ 3] mail 1 is not known spam.
+Feb 01 18:50:25.787144 check[23666]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Feb 02 15:48:36.552512 check[28304]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Feb 02 15:48:37.970265 check[28304]: [ 3] mail 1 is known spam.
+Feb 07 22:54:32.810168 check[3963]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Feb 07 22:54:34.628484 check[3963]: [ 3] mail 1 is known spam.
+Feb 20 09:01:51.510286 check[19144]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/dibabd/.razor/razor-agent.log
+Feb 20 09:01:53.486487 check[19144]: [ 3] mail 1 is known spam.

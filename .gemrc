@@ -1,0 +1,6 @@
+---
+"gem": '--remote --gen-rdoc --run-tests'
+"gemhome": '/home/sites/15a/f/fd5f988327/ruby/gems'
+"gempath": []
+
+"rdoc": '--inline-source --line-numbers'
